@@ -38,7 +38,7 @@ if(isset($_POST['submit'])){
     
     
     if ($msg_resp ->success == 'true') {
-        echo "<center> <h2>WAIT FOR  STK POP UP🔥</h2></center>";
+        echo "<center> <h4>WAIT FOR  STK POP UP🔥</h4></center>";
       } else {
         echo "Transaction Failed";
        
