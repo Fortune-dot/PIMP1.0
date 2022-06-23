@@ -69,7 +69,7 @@ if(isset($_POST['submit'])){
             <div class="form-group caution">  </div>
             <div class="form-group"><input class="form-control" type="text" name="phone" placeholder="Enter Mpesa Number"></div>
             <div class="form-group"><input class="form-control" type="text" name="whatsapp_phone" placeholder="Enter Whatsapp Number"></div>
-            <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Download Now</button></div><a href="#" class="forgot">Contact Support</a></form>
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit" value="submit" name="submit">Download Now</button></div><a href="#" class="forgot">Contact Support</a></form>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
